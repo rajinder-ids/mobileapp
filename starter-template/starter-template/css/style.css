@@ -1,0 +1,192 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+a{
+  color:#29487d
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.wrapper{
+  width: 480px;
+  margin: 0 auto;
+}
+.logo-c {
+  left: 15px;
+}
+#index-banner {
+  background:#fff;
+  border: 1px solid #ccc;
+  height: auto;
+}
+nav{
+  background-color: #29487d;
+}
+.page-footer{
+  background-color: #29487d;
+}
+.full{
+  width: 100%;
+}
+.box-c.z-depth-1.center {
+  background: #ffffffc7;
+  box-shadow: 0 5px 10px #777;
+  transform: rotate(0deg);
+}
+.box-c:hover{
+  background:#29487d; 
+}
+h4 {
+  font-size: 30px;
+  color: #29487d;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  text-shadow: 0 0 3px #a98e8e;
+}
+
+h4::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #29487d;
+  width: 0;
+  position: relative;
+  bottom: -7px; 
+  transition: width .6s ease;
+}
+
+.section:hover h4::after {
+  width: 100%;
+}
+.title-h {
+  margin: 2px 0 20px 0;
+}
+p.class-n {
+  padding: 0px 0 10px 0;
+  margin: 0px 3px 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-small{
+  background-color: #29487d;
+}
+.btn-small:hover {
+  background-color: #29487d;
+}
+.loader-c{
+ border-color:#29487d;
+}
+
+    .sms-send-page-wrapper{
+      background: #f6f9fc;
+
+    font-family: 'Abel', sans-serif;
+
+    }
+
+.sms-send-page .pull-left p {
+    color: #5b6773;
+    margin: 0;
+}
+.sms-send-page .pull-left small {
+    color: #637282;
+    font-size: 13px;
+}
+.sms-send-page .pull-left {
+    line-height: 18px;
+}
+.sms-send-page .list-group-item {
+    padding: 14px;
+      border: 1px solid #e6e8eb;
+       position: relative;
+}
+.sms-send-page .pull-right .btn {
+    border: medium none;
+    border-radius: 23px;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 0px 25px;
+    text-transform: uppercase;
+}
+.sms-send-page .list-group {
+    box-shadow: 0 0 11px #eceeef;
+}
+.sms-send-page .list-group-item:first-child {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.sms-send-page .list-group-item:last-child {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-bottom: 0;
+}
+.sms-send-page .btn
+{
+  float: right;
+}
+.sms-send-page .btn-success
+{
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#15ad0c+0,007a00+100 */
+background: #15ad0c; /* Old browsers */
+background: -moz-linear-gradient(left, #29487d 0%,#29487d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #29487d 0%,#29487d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #29487d 0%,#29487d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15ad0c', endColorstr='#007a00',GradientType=1 ); /* IE6-9 */
+}
+.sms-send-page .btn-success:hover
+{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007a00+0,15ad0c+100 */
+  background: #007a00; /* Old browsers */
+  background: -moz-linear-gradient(left, #29487d 0%, #29487d 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #29487d 0%,#29487d 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #29487d 0%,#29487d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007a00', endColorstr='#15ad0c',GradientType=1 ); /* IE6-9 */
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+    outline: medium none;
+    outline-offset: 0;
+}
+.sms-send-page .pull-left, .sms-send-page .pull-right{
+  padding: 0px;
+}
+.sms-send-page .pull-left img {
+    width: 37px;
+    height: 37px;
+    float: left;
+    margin-right: 10px;
+}
+.sms-send-page .pull-left small .fa {
+    font-size: 9px;
+    vertical-align: middle;
+}
+.mate-icons {
+    font-weight: bold;
+    font-size: 35px;
+    color:#29487d;
+    cursor: pointer;
+ }
+.footer-icons {
+    font-weight: bold;
+    font-size: 28px;
+    color:#fff;
+    cursor: pointer;
+ }
+
+ h5.center.title-q {
+    margin-right: 15px;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    color: #29487d;
+}
+.footer-c{
+	margin-bottom:0px;
+}
