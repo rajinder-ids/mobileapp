@@ -31,6 +31,7 @@ nav{
 }
 .page-footer{
   background-color: #29487d;
+  padding-top: 10px;
 }
 .full{
   width: 100%;
@@ -83,48 +84,46 @@ p.class-n {
  border-color:#29487d;
 }
 
-    .sms-send-page-wrapper{
-      background: #f6f9fc;
-
-    font-family: 'Abel', sans-serif;
-
-    }
+.sms-send-page-wrapper{
+  background: #f6f9fc;
+  font-family: 'Abel', sans-serif;
+}
 
 .sms-send-page .pull-left p {
-    color: #5b6773;
-    margin: 0;
+  color: #5b6773;
+  margin: 0;
 }
 .sms-send-page .pull-left small {
-    color: #637282;
-    font-size: 13px;
+  color: #637282;
+  font-size: 13px;
 }
 .sms-send-page .pull-left {
     line-height: 18px;
 }
 .sms-send-page .list-group-item {
-    padding: 14px;
-      border: 1px solid #e6e8eb;
-       position: relative;
+  padding: 14px;
+  border: 1px solid #e6e8eb;
+  position: relative;
 }
 .sms-send-page .pull-right .btn {
-    border: medium none;
-    border-radius: 23px;
-    font-size: 14px;
-    font-weight: 900;
-    padding: 0px 25px;
-    text-transform: uppercase;
+  border: medium none;
+  border-radius: 23px;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 0px 25px;
+  text-transform: uppercase;
 }
 .sms-send-page .list-group {
     box-shadow: 0 0 11px #eceeef;
 }
 .sms-send-page .list-group-item:first-child {
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 .sms-send-page .list-group-item:last-child {
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    margin-bottom: 0;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-bottom: 0;
 }
 .sms-send-page .btn
 {
@@ -151,42 +150,75 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15ad0c', end
 }
 
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
-    outline: medium none;
-    outline-offset: 0;
+  outline: medium none;
+  outline-offset: 0;
 }
 .sms-send-page .pull-left, .sms-send-page .pull-right{
   padding: 0px;
 }
 .sms-send-page .pull-left img {
-    width: 37px;
-    height: 37px;
-    float: left;
-    margin-right: 10px;
+  width: 37px;
+  height: 37px;
+  float: left;
+  margin-right: 10px;
 }
 .sms-send-page .pull-left small .fa {
-    font-size: 9px;
-    vertical-align: middle;
+  font-size: 9px;
+  vertical-align: middle;
 }
 .mate-icons {
-    font-weight: bold;
-    font-size: 35px;
-    color:#29487d;
-    cursor: pointer;
+  font-weight: bold;
+  font-size: 35px;
+  color:#29487d;
+  cursor: pointer;
  }
 .footer-icons {
-    font-weight: bold;
-    font-size: 28px;
-    color:#fff;
-    cursor: pointer;
+  font-size: 28px;
+  color:#fff;
+  cursor: pointer;
  }
 
  h5.center.title-q {
-    margin-right: 15px;
-    float: right;
-    font-size: 30px;
-    font-weight: bold;
-    color: #29487d;
+  margin-right: 15px;
+  float: right;
+  font-size: 23px;
+  font-weight: bold;
+  color: #29487d;
+  line-height:0;
 }
 .footer-c{
 	margin-bottom:0px;
+}
+.collapsible-header {
+  color: #29487d;
+  font-weight: 500;
+}
+.collapsible-header i {
+  width: 10rem;
+  text-align: right;
+  position: relative;  
+}
+.dp48{
+  position: absolute;
+  right: 0;
+}
+label {
+  font-size: 0.8rem;
+  color: #29487d;
+  font-weight: 500;
+}
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
+  background-color: #29487d;
+}
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after {
+  border: 2px solid #29487d;
+}
+.btn-success a {
+    color: #fff;
+}
+.pagination li.active {
+  background-color: #29487d;
+}
+.pagination li a {
+  color: #29487d;
 }
